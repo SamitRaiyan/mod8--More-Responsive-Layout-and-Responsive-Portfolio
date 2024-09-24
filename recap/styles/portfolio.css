@@ -241,3 +241,59 @@ textarea {
   font-weight: 700;
   padding: 15px 30px;
 }
+
+
+/* making responsive */
+.hide{
+  display: none;
+}
+/* small device */
+@media screen and (max-width: 576px) {
+  .skill-container{
+    flex-direction: column;
+  }
+  #what-i-do-description{
+    padding: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* medium device */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  
+}
