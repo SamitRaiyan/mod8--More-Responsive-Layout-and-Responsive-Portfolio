@@ -249,13 +249,23 @@ textarea {
 }
 /* small device */
 @media screen and (max-width: 576px) {
-  .skill-container, .resume-container, footer{
+  .header{
+    background-image: none;
+  }
+  nav,nav > ul,.banner,.skill-container, .resume-container,.about-info-container,footer{
     flex-direction: column;
   }
+  nav > ul{
+    gap: 15px;
+  }
+  .banner .profile-pic{
+    width: 100%;
+  }
+  .banner,
   #what-i-do-description{
     padding: 20px;
   }
-  footer{
+  footer,.about{
     padding: 10px;
   }
   .footer-column{
