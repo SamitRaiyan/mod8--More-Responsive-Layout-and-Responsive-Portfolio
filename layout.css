@@ -15,6 +15,7 @@
 }
 .sidebar{
     grid-area: sidebar;
+    margin-bottom: 50%;
 }
 .advertise{
     grid-area: advertise;
